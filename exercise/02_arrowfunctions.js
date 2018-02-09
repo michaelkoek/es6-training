@@ -28,6 +28,9 @@
  *     - May use Google to look up how to handle time
  *
  *     tip: Use and chain multiple build-in methods
+ *
+ *  Bonus:
+ *     - Some objects are missing the `album` property. Add this property and the name of the album
  */
 
 // Albums
