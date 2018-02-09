@@ -1,9 +1,9 @@
 /**
  * CLASS - TEST
- * Theme: Pirate
+ * Theme: Pirates
  *
  *
- * 1: Create an object constructor with the pirate array
+ * 1: Create an object constructor with the pirate array (old way)
  *
  * 2: Create a pirate class
  *    - pass all the data to the pirate class

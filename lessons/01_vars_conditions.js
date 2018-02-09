@@ -1,4 +1,4 @@
 /**
- * 01 - VAR, CONST, LET, OBJ and Conditions
+ * 01 - VAR, CONST, LET, OBJ, String Template, and Conditions
  *
  */

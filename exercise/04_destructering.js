@@ -4,8 +4,7 @@
  *
  * 1: Display object data
  *    - Store the object properties in variables (destructure)
- *    - console log the data
- *    - Change prop 'city' to 'cityName'
+ *    - console log the cityName (instead of name), province and country
  *
  * 2: Display correct order
  *    - Create a function that takes two arguments
@@ -13,9 +12,8 @@
  *
  * 3: Destruct the nickname array and log them.
  *
- *
- * 4: Display established and nickname
- *    - store the rest (regardless the size) in an object
+ * 4: Display established and nickname variables
+ *    - store the rest in an object
  */
 
 const city = {

@@ -3,9 +3,9 @@
  * Theme: Michael Jackson
  *
  * 1: Convert the Function Declaration into a Arrow Function
- *    - Pass the Album 'Thriller' as an agrument
+ *    - Pass the Album 'Thriller' as an argument to the function
  *    - Set a default value: 'no album'
- *     - No Console log in the function body
+ *    - No Console log in the function body
  *
  * 2: Display the amount of albums
  *    - Don't use console.log inside the body function
@@ -18,14 +18,14 @@
  *     - { title, durarion }
  *     - No console.log in the function body
  *
- *  4: Get all song that has a featured artist
+ *  4: Get all songs which has a featured artist
  *     - No Console log in the function body
- *     - Extract the functions into separate expressions
+ *     - Extract the function into a separate expressions
  *
  *  5: Get the total time of the album
  *     - No Console log in the function body
- *     - Extract the functions into separate expressions
- *     - May use Google to convert time Ms > Ss | Ss > Ms
+ *     - Extract the function into a separate expressions
+ *     - May use Google to look up how to handle time
  *
  *     tip: Use and chain multiple build-in methods
  */

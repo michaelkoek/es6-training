@@ -3,13 +3,14 @@
  * Theme: Inventors
  *
  * 1: Create new array of chosen inventors
+ *     - Choose 3 random inventors to your liking
  *     - No Console log in the function body
  *     - the function takes an infinity amount of arguments
  *
  * 2: Merge objects
- *    - Create 'meadsInvention' object
- *    - Create two additional objects and merge with meadsInvention
- *    - Change the name and origin of property of the new objects to the inventors info
+ *    - Create a 'meadsInvention' object which has 4 properties with at least { name: .., origin: ..., .. }
+ *    - Choose two inventors and make an object with their data. The object should atleast have 'name' and 'origin' properties
+ *    - When loggin the data to the screen, the inventors should have their own name and origin, but the other values should be the same
  *
  * 3: Old and Current inventors
  *    - Create a new array with 'current inventors' ('Tim Berners Lee', 'Elon Musk')
