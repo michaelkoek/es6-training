@@ -130,8 +130,69 @@ const data = [
 ];
 
 // 1 // Correct this function
-function getAlbum() {
-  'Thriller';
-}
+const getAlbum = (album = 'unkown album') => {
+  return album;
+};
 
+// console.log(getAlbum('thriller'));
 console.log(getAlbum());
+
+// 2
+const amountAlbums = x => `MJ has ${x} albums`;
+console.log(amountAlbums(albums.length));
+
+// 3
+const getDurationTitle = song => {
+  return {
+    title: song.title,
+    duration: song.duration
+  }
+};
+const albumData = data.map(getDurationTitle);
+console.log(albumData);
+
+// 4
+// getFeat is a function reference
+const getfeat = item => item.feateredArtist;
+const getFeatured = data.filter(getfeat);
+
+// const getFeatured = data.filter(function(item) {
+//   return item.feateredArtist
+// });
+
+console.log(getFeatured);
+
+/**
+*  5: Get the total time of the album
+*     - No Console log in the function body
+*     - Extract the function into a separate expressions
+*     - May use Google to look up how to handle time
+*
+*     tip: Use and chain multiple build-in methods
+*/
+
+const getSongTime = song => {
+
+  const time = song.duration; // 6:03
+  const timeSplit = time.split(':');
+  // // console.log(timeSplit);
+  // console.log(+timeSplit[0], +timeSplit[1]);
+
+  return (+timeSplit[0] * 60000) + (+timeSplit[1] * 1000);
+};
+
+const getTotalTime = data
+  .map(getSongTime)
+  .reduce((acc, cur = 0) => acc + cur);
+
+console.log('time in ms',getTotalTime);
+
+const timeInMinutes = time => {
+  const seconds = parseInt( (time / 1000) % 60);
+  const minutes = parseInt(( time / (1000 * 60) ) % 60);
+  const hours = parseInt(( time / (1000 * 60 * 60) ) % 24);
+
+  return `Total time of album is ${hours} : ${minutes} : ${seconds}`;
+};
+
+console.log(timeInMinutes(getTotalTime));
