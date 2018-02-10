@@ -28,3 +28,41 @@
  * resulted into 'Beethoven'.
  *    - TRUE -> log sentence: "Beethoven was born in Bonn"
  */
+
+// 1:
+let firstName = 'Wolfgang';
+const lastName = 'Mozart';
+const pob = 'Salzburg';
+const age = 57;
+const yod = 1791;
+
+// 2
+firstName = 'Wolfgang Amadeus';
+
+// 3
+const composerObj = {
+  firstName,
+  lastName,
+  pob,
+  age,
+  yod,
+};
+
+console.log(composerObj.lastName = 'yrdt');
+
+
+// 4
+function composerInfo(composerObj) {
+  const s = `${composerObj.firstName} ${composerObj.lastName} was born in ${composerObj.pob} and died in ${composerObj.yod} at the age of ${composerObj.age}`;
+
+  console.log(s);
+}
+composerInfo(composerObj);
+
+// 5
+const composerName = firstName === 'Wolfgang' ? 'Beethoven' : 'Wolfgang Amadeus';
+console.log(composerName);
+
+// 6
+const secondComposer =  composerName === 'Beethoven' && ('Beethoven was born in Bonn');
+console.log(secondComposer);
