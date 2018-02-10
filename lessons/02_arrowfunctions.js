@@ -3,43 +3,43 @@
  *
  */
 // // function declaration
-// function myAge() {
-//   return 31;
-// }
-//
-// console.log(myAge());
-//
-// // function expression
-// const sum = function (a, b) {
-//   return a + b;
-// };
-// console.log(sum(2, 4));
-//
-// // implicit return
-// const add = (a, b) => {
-//   const n = a + 1;
-//   return n + b;
-// };
-// console.log(add(2, 5));
-//
-// // explicit
-// const multiply = (a, b) => a * b;
-//
-// console.log(multiply(2, 2));
-//
-// const divide = a => 2 / 2;
-// console.log(divide());
-//
-// /**
-//  * Default parameters
-//  */
-// const added = (a = 5, b = 10) => {
-//   return a + b;
-// };
-// console.log(added(4));
-// console.log(added(4, 10));
-// console.log(added(undefined, 20));
-// console.log(added(null));
+function myAge() {
+  return 31;
+}
+
+console.log(myAge());
+
+// function expression
+const sum = function (a, b) {
+  return a + b;
+};
+console.log(sum(2, 4));
+
+// implicit return
+const add = (a, b) => {
+  const n = a + 1;
+  return n + b;
+};
+console.log(add(2, 5));
+
+// explicit
+const multiply = (a, b) => a * b;
+
+console.log(multiply(2, 2));
+
+const divide = a => 2 / 2;
+console.log(divide());
+
+/**
+ * Default parameters
+ */
+const added = (a = 5, b = 10) => {
+  return a + b;
+};
+console.log(added(4));
+console.log(added(4, 10));
+console.log(added(undefined, 20));
+console.log(added(null));
 
 const students = [
   {
